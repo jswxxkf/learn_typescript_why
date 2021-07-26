@@ -19,3 +19,12 @@ declare class Person {
 
 // 声明图片(资源)
 declare module '*.jpg';
+declare module '*.jpeg';
+declare module '*.png';
+declare module '*.gif';
+declare module '*.svg';
+
+// 声明命名空间
+declare namespace $ {
+  export function ajax(settings: any): any
+}
